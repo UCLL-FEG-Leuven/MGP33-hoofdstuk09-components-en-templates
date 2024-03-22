@@ -1,0 +1,19 @@
+{
+  "name": "mgp33-hoofdstuk09-components-en-templates",
+  "version": "0.0.1",
+  "description": "Hoofdstuk 09 - Components en templates: in deze applicatie starten we met de bouw van een wereldklok!",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm ci & concurrently \"cd Client & npm start\" \"cd Server & npm start\""
+  },
+  "keywords": [
+    "UCLL",
+    "FEG",
+    "Angular"
+  ],
+  "author": "David Urting",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
