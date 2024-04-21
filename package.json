@@ -1,6 +1,6 @@
 {
   "name": "mgp33-hoofdstuk09-components-en-templates",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "description": "Hoofdstuk 09 - Components en templates: in deze applicatie starten we met de bouw van een wereldklok!",
   "main": "index.js",
   "scripts": {
