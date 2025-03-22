@@ -1,11 +1,10 @@
 import { Component, Input, OnDestroy, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-klok',
-  standalone: true,
-  imports: [],
-  templateUrl: './klok.component.html',
-  styleUrl: './klok.component.css'
+    selector: 'app-klok',
+    imports: [],
+    templateUrl: './klok.component.html',
+    styleUrl: './klok.component.css'
 })
 export class KlokComponent implements OnInit, OnDestroy {
   @Input()

@@ -3,11 +3,10 @@ import { FormsModule } from '@angular/forms';
 import { KlokComponent } from '../klok/klok.component';
 
 @Component({
-  selector: 'app-klokken',
-  standalone: true,
-  imports: [FormsModule, KlokComponent],
-  templateUrl: './klokken.component.html',
-  styleUrl: './klokken.component.css'
+    selector: 'app-klokken',
+    imports: [FormsModule, KlokComponent],
+    templateUrl: './klokken.component.html',
+    styleUrl: './klokken.component.css'
 })
 export class KlokkenComponent {
   newTimeZone: string = 'Europe/Brussels';
