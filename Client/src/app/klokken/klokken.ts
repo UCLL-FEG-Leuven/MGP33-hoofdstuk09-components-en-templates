@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KlokComponent } from '../klok/klok.component';
+import { Klok } from '../klok/klok';
 
 @Component({
     selector: 'app-klokken',
-    imports: [FormsModule, KlokComponent],
-    templateUrl: './klokken.component.html',
-    styleUrl: './klokken.component.css'
+    imports: [FormsModule, Klok],
+    templateUrl: './klokken.html',
+    styleUrl: './klokken.css'
 })
-export class KlokkenComponent {
+export class Klokken {
   newTimeZone: string = 'Europe/Brussels';
   timeZones: Array<string> = [];
 

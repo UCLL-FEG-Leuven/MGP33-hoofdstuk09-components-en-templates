@@ -1,10 +1,10 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { AppComponent } from './app/app.component';
+import { App } from './app/app';
 import { provideZonelessChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app/app.routes';
 
-bootstrapApplication(AppComponent, {providers: [
+bootstrapApplication(App, {providers: [
   provideZonelessChangeDetection(),
   provideRouter(routes)
 ]})
